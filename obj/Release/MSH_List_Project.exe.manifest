@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="MSH_List_Project.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MSH_List_Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MSH_List_Project.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.Licensing.dll" size="1349400">
+      <assemblyIdentity name="Bunifu.Licensing" version="4.0.0.0" publicKeyToken="F89B4760BA7DCB6B" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>smrOD2Sf9XBkuMaV5zR1YHNEyiJuoMltTzYBoF/u4cw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.1.5.3.dll" size="351512">
+      <assemblyIdentity name="Bunifu.UI.WinForms.1.5.3" version="1.5.3.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>8dN7nKPNQ2Nk0aw7aeTPWTlyEkfLOPAN0Da+KMrYbUA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuButton.dll" size="110360">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuButton" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>YRRxKFshOhAqYKtu1Ik8AcRZ4KHgpBUbQzystq7P6Jc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuCheckBox.dll" size="105240">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuCheckBox" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Bv47xqNW6DKq5bb+c+nKpo66OEV6ZMIC/OsW0+nQm/o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuCircleProgress.dll" size="79128">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuCircleProgress" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>aNy1rVmKpY1DKi97VU6ngyEz7tFtnA8Rd7zaR/TMhaI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuColorTransition.dll" size="39192">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuColorTransition" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>I13xjU95uQ/usnlSSPD5vWTZZS22svzy91aHHEml7D4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuDataGridView.dll" size="85272">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuDataGridView" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>m91FYJVDHcR72GF0K6L3PUJunypScDdk0hVIp4b09+0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuDatePicker.dll" size="51480">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuDatePicker" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>N5o14y2x1AAoYaGJy+G1KNmDWOR3s3lYatKbj5sDL60=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuDropdown.dll" size="51992">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuDropdown" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pyHWS7o2/GGCRDrcGlH2NLfuWZOIWT2+UQqr2zQURsI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuFormDock.dll" size="104728">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuFormDock" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>XMmxy/IjgR1cT6FldSpRjZfXrAEgQj/tYy9E+FMG20E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuGauge.dll" size="76056">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuGauge" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Zfwv53Y56pWxFGh2Tftkdw/0eh4RTmI9jZRdeNQs/9A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuGradientPanel.dll" size="61720">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuGradientPanel" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>6PXVFP8c+MvZUZ7c1MmX6+y0x61jlJrujHNGYTpaPMg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuGroupBox.dll" size="47896">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuGroupBox" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qVXpHhoq5BO2KIpkIZHFQXmbl7pT8Zgi8PiuAxE7+CA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuImageButton.dll" size="159000">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuImageButton" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qhjK4YtnAw8YczlfTS+dFBBSCaLBPbXB9tbBysbGyXw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuLabel.dll" size="430360">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuLabel" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iVkLzJZBQBcrRyPy6xTU2SqjNeqMEAHHcO91v91bPzE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuPages.dll" size="97560">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuPages" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>vil8NOuP9feGVNsww81Af9EcFTs4qkCWFlWXxz+oXzU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuPanel.dll" size="43288">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuPanel" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>oP0Lo/1Wdg0BgAMfJ8P7GmornaMtQ1b2AKDpNNLpu+8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuPictureBox.dll" size="36632">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuPictureBox" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>amz/Cf88JLAqqA/c4Ep3LBK/DO/P63VxFiaZocmqkyI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuProgressBar.dll" size="78104">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuProgressBar" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zn15WzlZQ+TwWk46RXcPf4zrQC6g9HcrOzWrw1a3SsI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuRadioButton.dll" size="70424">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuRadioButton" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>UO0JS4IQDPctlKCajXydfvRATynf99p2lUIXNG1MriE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuRating.dll" size="50456">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuRating" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JK+aRtC2DuVHtQ+KMLA5ZrrEevun4OGw/+JpBh1HG6g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuScrollBar.dll" size="183064">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuScrollBar" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OevzLWYaBqpXw5dDM0g3KrgIwzGp5wf2+ZTisJtCXw4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuSeparator.dll" size="38168">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuSeparator" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nHztqW7g76Xk1flq3nNuA6U+jRJ+UDEQiMXgANHJ3nw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuShadowPanel.dll" size="46872">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuShadowPanel" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>9TZFGDX9ThttnG/WlofMsJ+EjKywXkqQnRepyKL7wV4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuShapes.dll" size="42264">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuShapes" version="4.1.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>UvKeClVb8JpLwATgmZU4PWMfG3QedcT/9UbPI4UdThw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuSlider.dll" size="200984">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuSlider" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HI79VGqE6R0q7ysymp+mtBMT2q+NQliIAzmckkina6I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuSnackbar.dll" size="277784">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuSnackbar" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>3zpU92ThZm9BfLP9Hz2Jj1aPtFSWi3NDoWX6SK3Z/vE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuTextbox.dll" size="115480">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuTextBox" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>cumAed85Smmy5R57gnZQhDgPkMshGbJLP3mp2kA24j8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuToggleSwitch.dll" size="46872">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuToggleSwitch" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>R2JWRvFGRoVS/KdAOPo5z67Va9QjumoKUfhynP2VMgw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuToolTip.dll" size="533272">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuToolTip" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>q7NjrntiH5korIT+YqIon6cxNGsJ1qHtWndDwYHjlFg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuTransition.dll" size="95000">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuTransition" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Utsa6ItFjh1P5QVahrLwLwA+KQvud4LW2wKJelvLdYY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.BunifuUserControl.dll" size="83224">
+      <assemblyIdentity name="Bunifu.UI.WinForms.BunifuUserControl" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SYJmog7wSGugYGliUyvL09ukmJp0UeneBFg5TOqwtCo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.UI.WinForms.Deprecated.dll" size="156440">
+      <assemblyIdentity name="Bunifu.UI.WinForms.Deprecated" version="4.1.1.0" publicKeyToken="E8E24CCD28363FE9" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>+5Q16vi/KPYUyhP3BwCGNpoVwocEq6hGEXqnha24OSU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Bunifu.Utils.dll" size="34816">
+      <assemblyIdentity name="Bunifu.Utils" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>SBZlWAYo7y3pxTdRx2wuwFUySfOv3M4V74gXI9xIvoI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MSH_List_Project.exe" size="189912">
+      <assemblyIdentity name="MSH_List_Project" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>VgHMARLeTOFLbhhHli2160RLdRHE7zeYj8B9dPf2Ru4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="MSH_List_Project.exe.config" size="1164">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>g9LqwlR5BxzDZ3iSVMLlT4An2IG5cqSx3GhCiVZ9Vzs=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>
